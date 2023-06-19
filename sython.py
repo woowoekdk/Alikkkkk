@@ -49,7 +49,7 @@ bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
-DEVS = [5159123009]
+DEVS = [5568351247]
 
 
 
@@ -213,7 +213,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**〠 اوامر حساب المسؤول
 
-• @ZMMBOT - `/point1`
+• @ZMMBOT - `/Bl`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
 • @XNSEX21BOT - `/point4`
@@ -229,7 +229,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**〠 اوامر حساب المسؤول
 
-• @ZMMBOT - `/point1`
+• @ZMMBOT - `/Bl`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
 • @XNSEX21BOT - `/point4`
@@ -245,7 +245,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**〠 اوامر حساب المسؤول
 
-• @ZMMBOT - `/point1`
+• @ZMMBOT - `/Bl`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
 • @XNSEX21BOT - `/point4`
@@ -262,7 +262,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**〠 اوامر حساب المسؤول
 
-• @ZMMBOT - `/point1`
+• @ZMMBOT - `/Bl`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
 • @XNSEX21BOT - `/point4`
@@ -278,7 +278,7 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id :
         order = await event.reply("""**〠 اوامر حساب المسؤول
 
-• @ZMMBOT - `/point1`
+• @ZMMBOT - `/Bl`
 • @A_MAN9300BOT - `/point2`
 • @MARKTEBOT - `/point3`
 • @XNSEX21BOT - `/point4`
