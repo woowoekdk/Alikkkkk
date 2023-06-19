@@ -175,39 +175,39 @@ async def join_channel(event):
         
         
         
-@sython1.on(events.NewMessage(outgoing=False, pattern='/TEST'))
+@sython1.on(events.NewMessage(outgoing=False, pattern='/Al'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**✅اداه تعمل بشكل جيد ارسل امر تجميع نقاط للبد**')
 
-@sython2.on(events.NewMessage(outgoing=False, pattern='/TEST'))
+@sython2.on(events.NewMessage(outgoing=False, pattern='/Al'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**✅اداه تعمل بشكل جيد ارسل امر تجميع نقاط للبد**')
 
 
-@sython3.on(events.NewMessage(outgoing=False, pattern='/TEST'))
+@sython3.on(events.NewMessage(outgoing=False, pattern='/Al'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**✅اداه تعمل بشكل جيد ارسل امر تجميع نقاط للبد**')
 
 
-@sython4.on(events.NewMessage(outgoing=False, pattern='/TEST'))
+@sython4.on(events.NewMessage(outgoing=False, pattern='/Al'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**✅اداه تعمل بشكل جيد ارسل امر تجميع نقاط للبد**')
 
-@sython5.on(events.NewMessage(outgoing=False, pattern='/TEST'))
+@sython5.on(events.NewMessage(outgoing=False, pattern='/Al'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**✅اداه تعمل بشكل جيد ارسل امر تجميع نقاط للبد**')
 
-@sython1.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
+@sython1.on(events.NewMessage(outgoing=False, pattern='/ss'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
@@ -376,19 +376,9 @@ async def _(event):
     await event.edit("**جاري الفحص..**")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+    await event.edit(f'''✅سورس يعمل بشكل جيد ''')
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
-
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
-
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
-
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
-''')
-
-@sython1.on(events.NewMessage(outgoing=False, pattern='/point1'))
+@sython1.on(events.NewMessage(outgoing=False, pattern='/BL'))
 async def _(event):
     await event.reply("**جاري تجميع النقاط**")
     await event.edit("**جاري تجميع النقاط**")
@@ -747,17 +737,7 @@ async def _(event):
     await event.edit("**جاري الفحص..**")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
-
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
-
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
-
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
-
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
-''')
+    await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
 @sython2.on(events.NewMessage(outgoing=False, pattern='/point1'))
 async def _(event):
@@ -1115,17 +1095,7 @@ async def _(event):
     await event.edit("**جاري الفحص..**")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
-
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
-
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
-
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
-
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
-''')
+    await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
 @sython3.on(events.NewMessage(outgoing=False, pattern='/point1'))
 async def _(event):
@@ -1483,17 +1453,7 @@ async def _(event):
     await event.edit("**جاري الفحص..**")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
-
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
-
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
-
-※ 𝗗𝗘𝗩𝗘??𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
-
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
-''')
+    await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
 @sython4.on(events.NewMessage(outgoing=False, pattern='/point1'))
 async def _(event):
@@ -1851,17 +1811,7 @@ async def _(event):
     await event.edit("**جاري الفحص..**")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
-
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
-
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
-
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
-
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
-''')
+    await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
 @sython5.on(events.NewMessage(outgoing=False, pattern='/point1'))
 async def _(event):
