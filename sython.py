@@ -223,7 +223,7 @@ async def OwnerStart(event):
 • INFO ACCOUNT - `/infoacc`
 • JOIN BOT CHANNEL - `/join`**""")
 
-@sython2.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
+@sython2.on(events.NewMessage(outgoing=False, pattern='/ss'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
@@ -239,40 +239,7 @@ async def OwnerStart(event):
 • INFO ACCOUNT - `/infoacc`
 • JOIN BOT CHANNEL - `/join`**""")
 
-@sython3.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
-async def OwnerStart(event):
-    sender = await event.get_sender()
-    if sender.id == ownerhson_id :
-        order = await event.reply("""**〠 اوامر حساب المسؤول
-
-• @ZMMBOT - `/Bl`
-• @A_MAN9300BOT - `/point2`
-• @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`
-• SEND - `/TEST`
-• LEAVE CHANNEL & GROUP - `/lpoint`
-• TRANSFER POINT - `/transfer`
-• INFO ACCOUNT - `/infoacc`
-• JOIN BOT CHANNEL - `/join`**""")
-
-
-@sython4.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
-async def OwnerStart(event):
-    sender = await event.get_sender()
-    if sender.id == ownerhson_id :
-        order = await event.reply("""**〠 اوامر حساب المسؤول
-
-• @ZMMBOT - `/Bl`
-• @A_MAN9300BOT - `/point2`
-• @MARKTEBOT - `/point3`
-• @XNSEX21BOT - `/point4`
-• SEND - `/TEST`
-• LEAVE CHANNEL & GROUP - `/lpoint`
-• TRANSFER POINT - `/transfer`
-• INFO ACCOUNT - `/infoacc`
-• JOIN BOT CHANNEL - `/join`**""")
-
-@sython5.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
+@sython3.on(events.NewMessage(outgoing=False, pattern='/ss'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
@@ -289,10 +256,43 @@ async def OwnerStart(event):
 • JOIN BOT CHANNEL - `/join`**""")
 
 
+@sython4.on(events.NewMessage(outgoing=False, pattern='/ss'))
+async def OwnerStart(event):
+    sender = await event.get_sender()
+    if sender.id == ownerhson_id :
+        order = await event.reply("""**〠 اوامر حساب المسؤول
+
+• @ZMMBOT - `/Bl`
+• @A_MAN9300BOT - `/point2`
+• @MARKTEBOT - `/point3`
+• @XNSEX21BOT - `/point4`
+• SEND - `/TEST`
+• LEAVE CHANNEL & GROUP - `/lpoint`
+• TRANSFER POINT - `/transfer`
+• INFO ACCOUNT - `/infoacc`
+• JOIN BOT CHANNEL - `/join`**""")
+
+@sython5.on(events.NewMessage(outgoing=False, pattern='/ss'))
+async def OwnerStart(event):
+    sender = await event.get_sender()
+    if sender.id == ownerhson_id :
+        order = await event.reply("""**〠 اوامر حساب المسؤول
+
+• @ZMMBOT - `/Bl`
+• @A_MAN9300BOT - `/point2`
+• @MARKTEBOT - `/point3`
+• @XNSEX21BOT - `/point4`
+• SEND - `/TEST`
+• LEAVE CHANNEL & GROUP - `/lpoint`
+• TRANSFER POINT - `/transfer`
+• INFO ACCOUNT - `/infoacc`
+• JOIN BOT CHANNEL - `/join`**""")
 
 
 
-@sython1.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
+
+
+@sython1.on(events.NewMessage(outgoing=True, pattern="/ss"))
 async def _(event):
       await event.edit("""**
 〠 اوامر حساب المستخدم 
@@ -308,7 +308,7 @@ async def _(event):
 • فحص السورس      - `.فحص`**""")
 
 
-@sython2.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
+@sython2.on(events.NewMessage(outgoing=True, pattern="/ss"))
 async def _(event):
       await event.edit("""**
 〠 اوامر حساب المستخدم 
@@ -324,7 +324,7 @@ async def _(event):
 • فحص السورس      - `.فحص`**""")
 
 
-@sython3.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
+@sython3.on(events.NewMessage(outgoing=True, pattern="/ss"))
 async def _(event):
       await event.edit("""**
 〠 اوامر حساب المستخدم 
@@ -339,7 +339,7 @@ async def _(event):
 
 • فحص السورس      - `.فحص`**""")
 
-@sython4.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
+@sython4.on(events.NewMessage(outgoing=True, pattern="./ss"))
 async def _(event):
       await event.edit("""**
 〠 اوامر حساب المستخدم 
@@ -355,7 +355,7 @@ async def _(event):
 • فحص السورس      - `.فحص`**""")
 
 
-@sython5.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
+@sython5.on(events.NewMessage(outgoing=True, pattern="/ss"))
 async def _(event):
       await event.edit("""**
 〠 اوامر حساب المستخدم 
@@ -739,7 +739,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
-@sython2.on(events.NewMessage(outgoing=False, pattern='/point1'))
+@sython2.on(events.NewMessage(outgoing=False, pattern='/Bl'))
 async def _(event):
     await event.reply("**جاري تجميع النقاط**")
     await event.edit("**جاري تجميع النقاط**")
@@ -1097,7 +1097,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
-@sython3.on(events.NewMessage(outgoing=False, pattern='/point1'))
+@sython3.on(events.NewMessage(outgoing=False, pattern='/Bl'))
 async def _(event):
     await event.reply("**جاري تجميع النقاط**")
     await event.edit("**جاري تجميع النقاط**")
@@ -1455,7 +1455,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
-@sython4.on(events.NewMessage(outgoing=False, pattern='/point1'))
+@sython4.on(events.NewMessage(outgoing=False, pattern='/Bl'))
 async def _(event):
     await event.reply("**جاري تجميع النقاط**")
     await event.edit("**جاري تجميع النقاط**")
@@ -1813,7 +1813,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''✅سورس يعمل بشكل جيد''')
 
-@sython5.on(events.NewMessage(outgoing=False, pattern='/point1'))
+@sython5.on(events.NewMessage(outgoing=False, pattern='/Bl'))
 async def _(event):
     await event.reply("**جاري تجميع النقاط**")
     await event.edit("**جاري تجميع النقاط**")
